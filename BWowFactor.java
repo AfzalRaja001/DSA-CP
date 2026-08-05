@@ -5,9 +5,9 @@ public class BWowFactor {
         Scanner sc = new Scanner(System.in);
         String s= sc.next();
 
-        int w= 0;
-        int wo = 0;
-        int wow = 0;
+        long w= 0;
+        long wo = 0;
+        long wow = 0;
 
         for(int i=1; i<s.length(); i++){
             if(s.charAt(i) == 'v' && s.charAt(i-1) == 'v'){
